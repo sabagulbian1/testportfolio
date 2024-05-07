@@ -1,0 +1,255 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+a,
+li {
+  all: unset;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.top_nav {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.left_nav {
+  display: flex;
+  justify-content: start;
+  color: rgb(255, 89, 37);
+}
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 50px;
+}
+
+.hm {
+  color: rgb(62, 131, 251);
+}
+
+.content_wraper {
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+  flex-direction: row;
+  width: 100vw;
+  gap: 10%;
+}
+.right_wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right_wraper > h1 {
+  color: rgb(255, 89, 37);
+  font-size: 8rem;
+  /* padding-left: 50vw; */
+}
+.right_wraper > p {
+  color: black;
+  width: 30vw;
+  height: 30vh;
+  font-size: 3rem;
+  /* padding-left: 30vw; */
+}
+.left_wraper > img {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  /* padding-bottom: 10vh; */
+  border-radius: 70%;
+}
+.soc {
+  display: flex;
+  flex-direction: row;
+ 
+  /* padding-left: 50vw; */
+  gap: 20px;
+
+}
+a > img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1350px){
+  .content_wraper {
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+    flex-direction: row;
+    width: 100vw;
+    gap: 10%;
+  }
+  .right_wraper > h1 {
+    color: rgb(255, 89, 37);
+    font-size: 7rem;
+    /* padding-left: 50vw; */
+  }
+  .right_wraper > p {
+    color: black;
+    width: 30vw;
+    height: 30vh;
+    font-size: 3rem;
+    /* padding-left: 30vw; */
+  }
+  .soc {
+    display: flex;
+    /* padding-left: 50vw; */
+    gap: 20px;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    
+  }
+}
+
+@media screen and (min-width: 760px ) and (max-width: 1024px){
+  .content_wraper {
+    display: flex;
+    justify-content: center;
+    padding-top: 14%;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 10%;
+  }
+  .right_wraper > h1 {
+    color: rgb(255, 89, 37);
+    font-size: 7rem;
+    /* padding-left: 50vw; */
+  }
+  .right_wraper > p {
+    color: black;
+    width: 80vw;
+   
+    font-size: 50px;
+    /* padding-left: 30vw; */
+  }
+  .soc {
+    display: flex;
+    /* padding-left: 50vw; */
+    gap: 20px;
+    padding-bottom: 10vh;
+   
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 760px )  {
+
+  .content_wraper {
+    display: flex;
+    justify-content: center;
+    padding-top: 24%;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    
+  }
+  .right_wraper > h1 {
+    color: rgb(255, 89, 37);
+    font-size: 5rem;
+    /* padding-left: 50vw; */
+  }
+  .right_wraper > p {
+    color: black;
+    width: 80vw;
+    
+    font-size: 35px;
+   
+  }
+  .soc {
+    display: flex;
+
+    gap: 20px;
+    padding-bottom: 10vh;
+    
+  }
+  .left_wraper > img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+   padding-bottom: 10vh;
+    border-radius: 70%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px ){
+  .top_nav {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .content_wraper {
+    display: flex;
+    justify-content: center;
+    padding-top: 18%;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 10%;
+  }
+
+  .right_wraper > h1 {
+    color: rgb(255, 89, 37);
+    font-size: 3rem;
+    /* padding-left: 50vw; */
+  }
+  .right_wraper > p {
+    color: black;
+    width: 80vw;
+   
+    font-size: 25px;
+   
+  }
+  .soc {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10vh;
+    
+  }
+  .left_wraper > img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  
+    border-radius: 70%;
+  }
+  a > img {
+    width: 40px;
+    height: 40px;
+  }
+}

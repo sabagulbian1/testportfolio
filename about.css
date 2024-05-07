@@ -1,0 +1,425 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+a,
+li {
+  all: unset;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.abt {
+  color: rgb(62, 131, 251);
+}
+
+.top_nav {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(235, 184, 143);
+}
+.left_nav {
+  display: flex;
+  justify-content: start;
+  color: rgb(255, 89, 37);
+}
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 50px;
+}
+.content_wraper1 {
+  display: flex;
+  justify-content: center;
+
+  gap: 12%;
+  align-content: end;
+  padding-top: 25vh;
+}
+.n1 {
+  width: 70%;
+  margin-left: 12%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.n2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 10vw;
+}
+.pigurebi {
+  width: 100%;
+  margin-top: 7vh;
+}
+.n1 > h1 {
+  font-size: 3rem;
+  color: rgb(255, 89, 37);
+}
+.n1 > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.n2 > h1 {
+  font-size: 25px;
+  color: rgb(150, 35, 0);
+}
+.n2 > p {
+  font-size: 20px;
+}
+.contact_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 10vw;
+  margin-bottom: 10vh;
+}
+.contact_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.contact_nav > h3 {
+  font-size: 2.5rem;
+  color: grey;
+}
+.contact_buttons > a {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+@media screen and (min-width: 1024px) {
+  .content_wraper1 {
+    display: flex;
+    justify-content: center;
+  
+    gap: 12%;
+    align-content: end;
+    padding-top: 25vh;
+  }
+  .n1 {
+    width: 70%;
+    margin-left: 12%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .n2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 10vw;
+  }
+  .pigurebi {
+    width: 100%;
+    margin-top: 7vh;
+  }
+  .n1 > h1 {
+    font-size: 3rem;
+    color: rgb(255, 89, 37);
+  }
+  .n1 > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .n2 > h1 {
+    font-size: 25px;
+    color: rgb(150, 35, 0);
+  }
+  .n2 > p {
+    font-size: 20px;
+  }
+  .contact_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact_nav > h3 {
+    font-size: 2.5rem;
+    color: grey;
+  }
+  .contact_buttons > a {
+    font-size: 1.5rem;
+    color: grey;
+  }
+}
+
+@media screen and (min-width: 760px ) and (max-width: 1024px){
+  .content_wraper1 {
+    display: flex;
+    justify-content: center;
+ 
+    gap: 12%;
+    align-content: end;
+    padding-top: 25vh;
+  }
+  .n1 {
+    width: 70%;
+    margin-left: 12%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .n2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 10vw;
+  }
+  .pigurebi {
+    width: 100%;
+    margin-top: 7vh;
+  }
+  .n1 > h1 {
+    font-size: 2rem;
+    color: rgb(255, 89, 37);
+  }
+  .n1 > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .n2 > h1 {
+    font-size: 20px;
+    color: rgb(150, 35, 0);
+  }
+  .n2 > p {
+    font-size: 15px;
+  }
+  .contact_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact_nav > h3 {
+    font-size: 1.5rem;
+    color: grey;
+  }
+  .contact_buttons > a {
+    font-size: 1rem;
+    color: grey;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 760px )  {
+  .top_nav {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .content_wraper1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 12%;
+    align-content: end;
+    padding-top: 15vh;
+  }
+  .n1 {
+    /* width: 80vw; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .n2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    width: 80vw;
+    padding-top: 10vh;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pigurebi {
+    width: 100%;
+  }
+  .n1 > h1 {
+    font-size: 25px;
+    color: rgb(255, 89, 37);
+  }
+  .n1 > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .n2 > h1 {
+    font-size: 25px;
+    color: rgb(150, 35, 0);
+  }
+  .n2 > p {
+    font-size: 15px;
+  }
+  .contact_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact_nav > h3 {
+    font-size: 20px;
+    color: grey;
+  }
+  .contact_buttons > a {
+    font-size: 15px;
+    color: grey;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 420px ){
+  .top_nav {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .content_wraper1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 12%;
+    align-content: end;
+    padding-top: 15vh;
+  }
+  .n1 {
+    /* width: 80vw; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .n2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    width: 80vw;
+    padding-top: 10vh;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pigurebi {
+    width: 100%;
+  }
+  .n1 > h1 {
+    font-size: 25px;
+    color: rgb(255, 89, 37);
+  }
+  .n1 > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .n2 > h1 {
+    font-size: 25px;
+    color: rgb(150, 35, 0);
+  }
+  .n2 > p {
+    font-size: 15px;
+  }
+  .contact_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact_nav > h3 {
+    font-size: 20px;
+    color: grey;
+  }
+  .contact_buttons > a {
+    font-size: 15px;
+    color: grey;
+  }
+}

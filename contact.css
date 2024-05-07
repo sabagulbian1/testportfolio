@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  pad: 0;
+}
+a,
+li {
+  all: unset;
+}
+body {
+  font-family: "Inet", sans-serif;
+}
+.contact {
+  color: rgb(62, 131, 251);
+ 
+}
+
+.top_nav {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  position: fixed;
+  width: 100%;
+ justify-content: space-around;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(235, 184, 143);
+}
+.left_nav {
+  display: flex;
+  justify-content: start;
+  color: rgb(255, 89, 37);
+}
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 50px;
+  
+}
+
+.container {
+  width: 80%;
+  padding: 20vh 10%;
+}
+.contact-box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+ 
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  color: rgb(150, 65, 0);
+  border: 3px solid rgb(150, 65, 0);
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background-color: rgb(150, 65, 0);
+  color: white;
+}
+h1 {
+  margin-bottom: 10px;
+  color: rgb(93, 40, 0);
+  font-size: 2rem;
+}
+
+.container > p {
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  color: rgb(93, 40, 0);
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-group {
+  flex-basis: 45%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(150, 65, 0);
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.contact-left > h3 {
+  color: rgb(150, 65, 0);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right > h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1350px){
+
+  .top_nav {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+   justify-content: space-around;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(235, 184, 143);
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+    
+  }
+  
+  .container {
+    width: 80%;
+    padding: 20vh 10%;
+  }
+  .contact-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   
+  }
+  .contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: rgb(150, 65, 0);
+    border: 3px solid rgb(150, 65, 0);
+  }
+  .contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgb(150, 65, 0);
+    color: white;
+  }
+  h1 {
+    margin-bottom: 10px;
+    color: rgb(93, 40, 0);
+    font-size: 2rem;
+  }
+  
+  .container > p {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    color: rgb(93, 40, 0);
+  }
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    flex-basis: 45%;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: rgb(150, 65, 0);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  .contact-left > h3 {
+    color: rgb(150, 65, 0);
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-right > h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+
+}
+
+
+@media screen and (min-width: 760px ) and (max-width: 1024px){
+  
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 760px )  {
+
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 420px ){
+  .contact-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .top_nav {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .left_nav {
+    display: flex;
+    justify-content: start;
+    color: rgb(255, 89, 37);
+  }
+  .right_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+  }
+  .container > p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: rgb(93, 40, 0);
+  }
+  .container > h1 {
+    font-size: 20px;
+  }
+ .contact-left {
+    font-size: 10px;
+  }
+  button {
+    background-color: rgb(150, 65, 0);
+    width: 70px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  .contact-left > h3 {
+    color: rgb(150, 65, 0);
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-right > h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .contact-right{
+    font-size: 10px;
+  }
+  
+}
+
+
+
